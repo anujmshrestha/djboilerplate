@@ -2,7 +2,7 @@ from .base import *
 
 
 DEBUG = config('DEBUG',cast=bool)
-ALLOWED_HOSTS = ['ip-address, 'www.myweb.com']
+ALLOWED_HOSTS = ['ip-address', 'djboilerplate.herokuapp.com']
 
 AUTH_PASSWORD_VALIDATORS = [
     {
